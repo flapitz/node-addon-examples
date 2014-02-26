@@ -17,4 +17,4 @@ void Init(Handle<Object> exports, Handle<Object> module) {
     module->Set(String::NewSymbol("exports"), FunctionTemplate::New(CreateObject)->GetFunction());
 }
 
-NODE_MODULE(addon, Init)
+NODE_MODULE(objectFactory, Init)

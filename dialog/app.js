@@ -1,5 +1,3 @@
-var addon = require('./build/Release/addon');
+var dialog = require('./build/Release/dialog');
 
-addon.messageBox("Hello", "World");
-
-console.log("Hit the end...");
+dialog.messageBox("Hello", "World");

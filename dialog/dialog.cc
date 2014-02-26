@@ -38,4 +38,4 @@ void Init(Handle<Object> exports) {
     exports->Set(String::NewSymbol("messageBox"), FunctionTemplate::New(MessageBox)->GetFunction());
 }
 
-NODE_MODULE(addon, Init)
+NODE_MODULE(dialog, Init)

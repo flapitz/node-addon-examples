@@ -24,4 +24,4 @@ void Init(Handle<Object> exports) {
     exports->Set(String::NewSymbol("add"), FunctionTemplate::New(Add)->GetFunction());
 }
 
-NODE_MODULE(addon, Init)
+NODE_MODULE(math, Init)
